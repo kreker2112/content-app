@@ -1,10 +1,2 @@
-@tailwind base;
-
-@layer base {
-  h1 {
-    @apply text-red-500;
-  }
-  a {
-    @apply text-teal-600 underline;
-  }
-}
+@import "_tailwind";
+@import "_styles";
